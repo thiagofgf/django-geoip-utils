@@ -1,7 +1,7 @@
 try:
     from django.contrib.gis.geoip import GeoIP
 except ImportError:
-    from django.contrib.gis.utils import GeoIP
+    from django.contrib.gis.utils.geoip import GeoIP
 
 from django.utils.functional import LazyObject
 
